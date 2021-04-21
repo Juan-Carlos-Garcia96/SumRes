@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun nextActivity(view: View) {
-        //pendiente, creacion de segunda pantalla
+        intent = Intent(applicationContext, MainActivity2::class.java )
+        startActivity(intent)
     }
 
 }

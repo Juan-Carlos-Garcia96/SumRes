@@ -14,7 +14,7 @@
         android:layout_height="200dp"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:src="@mipmap/Logo" />
+        android:src="@mipmap/logo" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -37,7 +37,9 @@
         android:layout_marginTop="50dp"
         android:backgroundTint="@color/black"
         android:onClick="nextActivity"
+        android:textColor="@color/white"
         android:padding="10dp"
-        android:text="Empezar" />
+        android:text="Empezar"
+        />
 
 </LinearLayout>
