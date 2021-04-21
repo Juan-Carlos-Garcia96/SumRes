@@ -38,6 +38,7 @@
         android:backgroundTint="@color/black"
         android:onClick="nextActivity"
         android:padding="10dp"
-        android:text="Empezar" />
+        android:text="Empezar"
+        />
 
 </LinearLayout>
