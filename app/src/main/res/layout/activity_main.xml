@@ -39,6 +39,8 @@
         android:onClick="nextActivity"
         android:textColor="@color/white"
         android:padding="10dp"
+        android:background="@drawable/radius"
+        android:textColorHint="@color/black"
         android:text="Empezar"
         />
 
