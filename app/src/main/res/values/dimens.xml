@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alturaLogo">80dp</dimen>
+    <dimen name="anchoLogo">80dp</dimen>
+
+    <dimen name="texcolor">b</dimen>
+</resources>
