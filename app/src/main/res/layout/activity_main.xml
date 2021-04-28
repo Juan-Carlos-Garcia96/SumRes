@@ -34,7 +34,7 @@
         android:text="BIENVENIDO A SUMRES"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:textSize="@dimen/Titles" />
 
     <Space
         android:layout_width="match_parent"
