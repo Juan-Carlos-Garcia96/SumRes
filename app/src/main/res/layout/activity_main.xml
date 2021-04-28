@@ -4,17 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back"
+    android:background="@drawable/backg"
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:src="@mipmap/logo" />
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+
+            android:src="@mipmap/logo" />
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
 
     <TextView
         android:layout_width="wrap_content"
