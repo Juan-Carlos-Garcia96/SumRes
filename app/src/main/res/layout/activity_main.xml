@@ -30,8 +30,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:text="SumRes"
-        android:textColor="@color/white"
+        android:alpha="0.8"
+        android:text="BIENVENIDO A SUMRES"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         android:textSize="30sp" />
 
     <Space
@@ -45,14 +47,14 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:onClick="nextActivity"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:padding="10dp"
-        android:backgroundTint="@color/black"
-        android:background="@drawable/radius"
-
-        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:text="EMPEZAR"
         android:textSize="@dimen/textButtons"
-        android:text="Empezar"
-        />
+        android:backgroundTint="@color/white"/>
+
+    "
+
 
 </LinearLayout>
