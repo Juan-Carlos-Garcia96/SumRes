@@ -1,56 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_200"
+    android:background="@drawable/backgreen"
+    android:alpha="0.9"
     android:padding="20dp"
     android:orientation="vertical"
     tools:context=".MainActivity2">
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center_vertical"
-        android:src="@mipmap/logo"
-        android:layout_marginTop="10dp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:text="SumRes"
-        android:textColor="@color/black"
-        android:textSize="20sp"/>
-<Space
-    android:layout_width="match_parent"
-    android:layout_height="100dp"/>
-
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:backgroundTint="@color/teal_200"
-        android:text="Suma"
-        android:textSize="20sp"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:backgroundTint="@color/teal_200"
-        android:text="Resta"
-        android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/logo"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="SUMRES"
+            android:textColor="@color/white"
+            android:textSize="@dimen/Titles"
+            android:textStyle="bold"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:backgroundTint="@color/white"
+            android:text="Sumas"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/textButtons"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/white"
+            android:text="Resta"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textButtons"/>
+
+
+    </LinearLayout>
 
 
 
 
 
 
-</LinearLayout>
+</FrameLayout>

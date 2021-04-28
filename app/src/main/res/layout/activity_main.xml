@@ -19,7 +19,6 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-
             android:src="@mipmap/logo" />
 
     </com.google.android.material.appbar.CollapsingToolbarLayout>
@@ -45,12 +44,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
-        android:backgroundTint="@color/black"
         android:onClick="nextActivity"
         android:textColor="@color/white"
         android:padding="10dp"
+        android:backgroundTint="@color/black"
         android:background="@drawable/radius"
+
         android:textColorHint="@color/black"
+        android:textSize="@dimen/textButtons"
         android:text="Empezar"
         />
 
