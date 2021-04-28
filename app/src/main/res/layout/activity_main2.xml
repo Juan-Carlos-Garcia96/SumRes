@@ -25,9 +25,7 @@
         android:layout_marginTop="10dp"/>
 
     <TextView
-        android:hyphenationFrequency="full
-
-ZZZZZZZZ"
+        
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -49,7 +47,8 @@ ZZZZZZZZ"
         android:text="Suma"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:textSize="@dimen/textButtons"/>
+        android:textSize="@dimen/textButtons"
+        android:onClick="nextSuma"/>
 
     
 
