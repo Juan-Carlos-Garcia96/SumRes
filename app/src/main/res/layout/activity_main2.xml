@@ -33,8 +33,8 @@ ZZZZZZZZ"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:text="SumRes"
-        android:textColor="@color/black"
-        android:textSize="20sp"/>
+        android:textColor="@color/white"
+        android:textSize="@dimen/Titles"/>
 <Space
     android:layout_width="match_parent"
     android:layout_height="100dp"/>
@@ -45,9 +45,11 @@ ZZZZZZZZ"
         android:padding="10dp"
         android:gravity="center_horizontal"
         android:layout_marginTop="50dp"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="@color/white"
         android:text="Suma"
-        android:textSize="20sp"/>
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/textButtons"/>
 
     
 
